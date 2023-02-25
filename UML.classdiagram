@@ -1,0 +1,7 @@
+@startuml Graph 
+class Node { 
+    +id: Integer 
+    -data: String
+    print()
+}
+@enduml
