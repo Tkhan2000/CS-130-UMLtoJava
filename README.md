@@ -3,6 +3,9 @@ This project can be used to convert a UML .classdiagram file
 to a .java file, assuming the class diagram file has correct 
 syntax.
 
+A .classdiagram file and its corresponding .java file are included in this repository. Feel free to edit
+the .classdiagram file directly or to create new .classdiagram files.
+
 ### How To Use
 Note: Must have Python installed to run
 
