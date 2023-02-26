@@ -9,9 +9,9 @@ from JavaCodeGenerator import JavaCodeGenerator
 # Get the current directory of the file
 scriptdir = os.path.dirname(os.path.abspath(__file__))
 
-# print("Enter name of the classdiagram file (i.e. UML.classdiagram): ")
-# file_name = str(input())
-file_name = "UML.classdiagram"
+print("Enter name of the classdiagram file (i.e. UML.classdiagram): ")
+file_name = str(input())
+#file_name = "UML.classdiagram" # For testing purposes
 uml_file = open(os.path.join(scriptdir, './' + file_name))
 
 # This function that converts text to list of strings, where index of 
